@@ -7,6 +7,7 @@
     <title>amazoom</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./Homework.css">
 </head>
 
 <body class="card-title text-center">
@@ -16,22 +17,26 @@
             <h5 class="card-title align-left text-start">Sign-in</h5>
             <div class="card-body">
                 <p class="card-text align-left text-start">Email (phone for mobile account)</p>
-                <input type="text"  class="form-control">
+                <input type="text" class="form-control" id="exampleFormControlInput1">
             </div>
             <div class="card-body">
-                <li class="list-group-item text-start">Password <a href="#">Forgot Password?</a></li>
-                <input type="text" class="form-control">
+                <div class="d-flex justify-content-between align-items-start">
+                    <p class="card-text text-start">Password</p>
+                    <p class="card-text text-end"><a href="#">Forgot Password?</a></p>
+                </div>
+                <input type="password" class="form-control" id="exampleFormControlInput1">
             </div>
             <div>
-                <li class="btn btn-outline-dark btn-warning w-100">Sign-In</li>
+                <button class="btn btn-outline-dark btn-warning w-100">Sign-In</button>
+
             </div>
-            <li class="list-group-item text-start">By continuing, you agree to Amazoom's <a href="#">Conditions of Use</a> and <a
-                    href="#">Privacy Notice</a></li>
+            <li class="list-group-item text-start">By continuing, you agree to Amazoom's <a href="#">Conditions of
+                    Use</a> and <a href="#">Privacy Notice</a></li>
 
             <div class="card-body text-start">
                 <div class="form-check">
                     <input class="form-check-input" type="checkbox" id="exampleCheckbox">
-                    <label class="form-check-label" for="exampleCheckbox">
+                    <label class="form-check-label form-check-inline" for="exampleCheckbox">
                         Keep me signed in. Details
                     </label>
                 </div>
